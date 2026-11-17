@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Dusk: Dark Mode",
   "short_name": "Dusk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Dark mode for every site, with per-site overrides. Also darkens Google Docs, Sheets and Slides.",
   "permissions": ["storage", "activeTab"],
   "background": { "service_worker": "background.js" },

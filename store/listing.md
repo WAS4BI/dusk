@@ -33,6 +33,8 @@ Modes:
 Dusk has no account, no tracking and no network requests. Your settings stay in your
 Chrome profile.
 
+Like Dusk? Buy me a coffee: https://ko-fi.com/K3B428Z3ZF
+
 ## Screenshots (1280x800, in store/screenshots, made by tests/store-shots.mjs)
 
 1. A Wikipedia article in Dark with its photo in natural colors.
