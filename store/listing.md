@@ -33,7 +33,7 @@ Modes:
 Dusk has no account, no tracking and no network requests. Your settings stay in your
 Chrome profile.
 
-## Screenshots to make (1280x800)
+## Screenshots (1280x800, in store/screenshots, made by tests/store-shots.mjs)
 
 1. A Wikipedia article in Dark with its photo in natural colors.
 2. The popup over a site with "Override this site" on and the mode picker showing.
@@ -45,3 +45,7 @@ Chrome profile.
 
 Dusk applies a dark color scheme to web pages, with a global on/off switch and per-site
 overrides.
+
+## Privacy policy URL
+
+PRIVACY.md in the repo (link its GitHub page once the repo is public).
