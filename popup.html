@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Dusk</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <img src="icons/icon32.png" alt="" width="20" height="20">
+    <span class="brand">Dusk</span>
+    <a id="options" class="link" href="options.html" target="_blank">Sites</a>
+  </header>
+
+  <div id="host" class="host">this page</div>
+
+  <label class="row">
+    <span>Dark Mode</span>
+    <input type="checkbox" id="global" class="switch">
+  </label>
+
+  <label class="row">
+    <span>Override this site</span>
+    <input type="checkbox" id="override" class="switch">
+  </label>
+
+  <div id="modes" class="segmented" role="radiogroup" aria-label="Mode for this site" hidden>
+    <button type="button" data-mode="off" role="radio">Off</button>
+    <button type="button" data-mode="dark" role="radio">Dark</button>
+    <button type="button" data-mode="invert" role="radio">Invert</button>
+  </div>
+
+  <label id="grayRow" class="row" hidden>
+    <span>Grayscale text in Docs<br><small>Sharper inverted text. Reload the tab after changing.</small></span>
+    <input type="checkbox" id="grayText" class="switch">
+  </label>
+
+  <p id="status" class="status"></p>
+  <p class="hint">Shortcut: <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>D</kbd> toggles this site</p>
+
+  <script src="common.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

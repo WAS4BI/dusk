@@ -1,0 +1,47 @@
+{
+  "manifest_version": 3,
+  "name": "Dusk: Dark Mode",
+  "short_name": "Dusk",
+  "version": "0.1.0",
+  "description": "Dark mode for every site, with per-site overrides. Also darkens Google Docs, Sheets and Slides.",
+  "permissions": ["storage", "activeTab"],
+  "background": { "service_worker": "background.js" },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Dusk",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "options_page": "options.html",
+  "commands": {
+    "toggle-site": {
+      "suggested_key": { "default": "Alt+Shift+D" },
+      "description": "Toggle dark mode on the current site"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["common.js", "content.js"],
+      "run_at": "document_start",
+      "all_frames": false
+    },
+    {
+      "matches": ["https://docs.google.com/*"],
+      "js": ["docs-main.js"],
+      "run_at": "document_start",
+      "world": "MAIN",
+      "all_frames": false
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "dusk-tests",
+  "private": true,
+  "type": "module",
+  "scripts": { "shots": "node shots.mjs" },
+  "devDependencies": { "playwright": "1.65.0" }
+}
