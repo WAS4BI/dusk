@@ -4,7 +4,25 @@ Dark mode for Chrome with a global switch and per-site overrides. It also works 
 Google Docs, Sheets and Slides, which draw the document on a canvas that ordinary
 CSS recoloring can't reach.
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3B428Z3ZF)
+
 Plain JavaScript, Manifest V3, no build step.
+
+## What it looks like
+
+Wikipedia with Dark on. Photos keep their real colors:
+
+![Wikipedia in Dark mode](store/screenshots/1-wikipedia-dark.png)
+
+The popup, with a per-site override:
+
+![The Dusk popup with a site override](store/screenshots/2-popup-override.png)
+
+Google Sheets and Google Docs, which ordinary dark mode extensions can't reach:
+
+![Google Sheets in Dark mode](store/screenshots/3-sheets-dark.png)
+
+![Google Docs in Dark mode, with an inserted picture in its real colors](store/screenshots/4-docs-image-dark.png)
 
 ## Install (load unpacked)
 
@@ -114,7 +132,3 @@ Screenshots go to `test-shots/` (ignored by git). `HEADED=1 node shots.mjs` show
 - Full-screen video and modal dialogs are handled with CSS but weren't tested much.
 - Google Docs pictures drawn before Dark was switched on stay as drawn until Docs redraws
   them (scroll, or reload).
-
-## Support
-
-Like Dusk? [Buy me a coffee on Ko-fi](https://ko-fi.com/K3B428Z3ZF).
