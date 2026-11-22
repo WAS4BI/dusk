@@ -6,6 +6,8 @@ CSS recoloring can't reach.
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3B428Z3ZF)
 
+**Get it on the [Chrome Web Store](https://chromewebstore.google.com/detail/dusk-dark-mode/phohgcgapnggmiffjfilmnokhmgepljo).**
+
 Plain JavaScript, Manifest V3, no build step.
 
 ## What it looks like
@@ -24,7 +26,9 @@ Google Sheets and Google Docs, which ordinary dark mode extensions can't reach:
 
 ![Google Docs in Dark mode, with an inserted picture in its real colors](store/screenshots/4-docs-image-dark.png)
 
-## Install (load unpacked)
+## Install from source (load unpacked)
+
+For development, or to try changes before they reach the store:
 
 1. Open `chrome://extensions` and turn on **Developer mode** (top right).
 2. Click **Load unpacked** and pick this folder (the one with `manifest.json`).
