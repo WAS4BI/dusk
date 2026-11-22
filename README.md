@@ -114,3 +114,7 @@ Screenshots go to `test-shots/` (ignored by git). `HEADED=1 node shots.mjs` show
 - Full-screen video and modal dialogs are handled with CSS but weren't tested much.
 - Google Docs pictures drawn before Dark was switched on stay as drawn until Docs redraws
   them (scroll, or reload).
+
+## Support
+
+Like Dusk? [Buy me a coffee on Ko-fi](https://ko-fi.com/K3B428Z3ZF).
